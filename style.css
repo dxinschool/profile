@@ -448,11 +448,29 @@ p{
 .blue {
   color: #00aff4;
 }
+@media (width <=500px) {
+	  .box2{
+
+    width: 190px;
+    background-color: #eee;
+    border-radius: 6px;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.2)); 
+    transition: transform 0.3s ease, filter 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 0 0 2px #eee; 
+
+    z-index: 1;
+
+	  }
+}
 @media (width <=460px) {
   
   .big-box{
 	  position: relative;
   }
+
   .badges {
     top: 120px;
     right: 16px;
